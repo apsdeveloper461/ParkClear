@@ -1,0 +1,74 @@
+@import "variables.css";
+
+*, *::after, *::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+
+
+/*
+
+
+0 - 600px:      Phone
+600 - 900px:    Tablet portrait
+900 - 1200px:   Tablet landscape
+[1200 - 1800] is where our normal styles apply
+1800px + :      Big desktop
+
+$breakpoint argument choices:
+- phone
+- tab-port
+- tab-land
+- big-desktop
+
+ORDER: Base + typography > general layout + grid > page layout > components
+
+1em = 16px
+*/
+
+
+html {
+    /*
+    We applied font-size 62.5% to make our life a lot easier.
+    By doing so, 1rem will be equal to 10px instead of 1rem being equal to 16px.
+    For example, if we want to apply width of 12px, we can simply use 1.2rem instead of...
+     opening up the calculator and then doing calculations.
+    Why do we even need rem in the first place?
+    If we just decrease the font-size to let's say 56.25%, that'll make our rem equal to 9px.
+    So instead of going inside every component and changing width over there, we can just simply change font-size..
+     and rem will take care of everything else.
+    */
+    font-size: 62.5%; /*1 rem = 10px; 10px/16px = 62.5%*/
+}
+
+@media only screen and (max-width: 1200px) {
+    html {
+        font-size: 56.25%; /* 1 rem = 9px, 9/16 = 50%*/
+    }
+}
+
+@media only screen and (max-width: 900px) {
+    html {
+        font-size: 50%; /* 1rem = 8px, 8/16 = 50%*/
+    }
+}
+
+@media only screen and (min-width: 1800px) {
+    html {
+        font-size: 75%; /* 1rem = 12px, 12/16 = 75%*/
+    }
+}
+
+body {
+    box-sizing: border-box;
+}
+
+/*.section {*/
+/*    transition: all 1s;*/
+/*}*/
+
+/*.section--hidden {*/
+/*    opacity: 0;*/
+/*    transform: translateY(8rem);*/
+/*}*/

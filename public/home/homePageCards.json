@@ -1,0 +1,152 @@
+[
+  {
+    "id": 1,
+    "img": "card1.png",
+    "heading": "PCNs & Fines Explained",
+    "subtitle": "Understand the differences between PCNs and private charges, how to appeal or pay fines, and what happens if you ignore them.",
+    "pageContent": {
+      "main": {
+        "heading1": "PCNs and ",
+        "heading2": "Parking",
+        "heading3": "Fines",
+        "subtitle": "Learn everything you need to know about Penalty Charge Notices (PCNs) and parking fines — what they are, why they’re issued, how much they cost, and the proper steps to take if you receive one.",
+        "btn1text": "Understand PCNs & Fines"
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "A PCN, or Penalty Charge Notice, is a civil fine issued by a local council or Transport for London (TfL) when you break certain parking or traffic regulations. Unlike criminal fines issued by the police, PCNs are part of civil enforcement—but they still carry consequences if ignored.\nYou could receive a PCN if you:\n\uD83D\uDC49 Parked without paying or without displaying a valid permit\n\uD83D\uDC49 Stayed longer than allowed in a pay-and-display or time-limited bay\n\uD83D\uDC49 Parked on double yellow lines or in a disabled bay without a Blue Badge\n\uD83D\uDC49 Stopped in a yellow box junction, blocking cross traffic\n\uD83D\uDC49 Drove in a bus lane during restricted hours\n\uD83D\uDC49 Entered a Clean Air Zone or Congestion Charge Zone without paying"
+        },
+        {
+          "type": "img",
+          "src": "1.png"
+        },
+        {
+          "type": "heading",
+          "text": "PCNs vs Private Charges"
+        },
+        {
+          "type": "text",
+          "text": "A PCN (Penalty Charge Notice) is typically issued by a local council or transport authority for parking violations, bus lane infringements, or other traffic-related offences on public roads. These are legally enforceable under civil law.\nPrivate parking charges, on the other hand, are issued by private companies for parking rule breaches on private land (like supermarkets or hospital car parks). While they may look official, they are not the same as council-issued PCNs and are considered civil contracts, not legal penalties.\nKey differences:\n\uD83D\uDC49 Issuer: Council or transport authority (PCN) vs private company (private charge)\n\uD83D\uDC49 Enforceability: PCNs can lead to bailiff action if unpaid; private fines require a court claim\n\uD83D\uDC49 Appeal process: PCNs follow a regulated appeal system; private charges depend on the company and may use independent bodies like POPLA or IAS."
+        },
+        {
+          "type": "heading",
+          "text": "How to Appeal a Fine"
+        },
+        {
+          "type": "text",
+          "text": "If you believe a fine has been issued unfairly or in error, you have the right to appeal. Acting quickly is essential, as most appeals must be submitted within 28 days of receiving the notice.\nFor PCNs:\n\uD83D\uDC49 Informal appeal: Usually submitted online or in writing if the PCN was left on your vehicle.\n\uD83D\uDC49 Formal representation: If the informal appeal is rejected, you can wait for the Notice to Owner and make a formal appeal.\n\uD83D\uDC49 Independent adjudication: If still rejected, you can appeal to an independent tribunal (like the Traffic Penalty Tribunal or London Tribunals).\nFor private charges:\n\uD83D\uDC49 Submit an appeal directly to the company.\n\uD83D\uDC49 If rejected, escalate to POPLA (for BPA members) or IAS (for IPC members), depending on the company’s affiliation."
+        },
+        {
+          "type": "heading",
+          "text": "Paying Your PCN"
+        },
+        {
+          "type": "text",
+          "text": "If you choose not to appeal or your appeal is unsuccessful, paying your PCN promptly can reduce the amount you owe. Most councils offer a 50% discount if you pay within 14 days of receiving the notice.\n\uD83D\uDC49 Payments can typically be made online, by phone, or by post.\n\uD83D\uDC49 Be sure to include your PCN reference number to avoid delays.\n\uD83D\uDC49 Keep proof of payment for your records.\nFor private parking charges, payment options will be listed on the notice. While private companies also offer early payment discounts, ensure the charge is valid before paying."
+        },
+        {
+          "type": "heading",
+          "text": "Ignoring a Fine"
+        },
+        {
+          "type": "text",
+          "text": "Ignoring a PCN can lead to serious consequences:\n\uD83D\uDC49 The fine increases after 28 days.\n\uD83D\uDC49 A Charge Certificate may be issued, increasing the amount by 50%.\n\uD83D\uDC49 Failure to pay may lead to a court order (Order for Recovery) and potentially bailiff action.\nFor private parking charges, ignoring the notice may result in:\n\uD83D\uDC49 Multiple reminder letters and threats of legal action.\n\uD83D\uDC49 A county court claim if the company chooses to pursue the matter legally.\n\uD83D\uDC49 A County Court Judgment (CCJ) if you do not respond to the claim, which can affect your credit score.\nIt’s usually better to appeal or pay, rather than ignore, to avoid escalation."
+        }
+      ]
+    }
+  },
+  {
+    "id": 2,
+    "img": "card2.jpeg",
+    "heading": "Driving Timelines & Remainders",
+    "subtitle": "Stay ahead with alerts for MOTs, license renewals, road tax, insurance, and emission zone deadlines.",
+    "pageContent": {
+      "main": {
+        "heading1": "Driving",
+        "heading2": "Times",
+        "heading3": "& Reminders",
+        "subtitle": "Stay ahead of deadlines like MOT, insurance, licence renewals, and emission zone checks—avoid penalties and drive worry-free.",
+        "btn1text": "Track Your Driving Essentials"
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "Staying on top of your driving-related deadlines is more than just good practice—it's essential for staying legal, safe, and financially protected on the road. From your annual MOT to insurance renewals and driving licence expirations, missing even one important date can have serious consequences. These include invalidated insurance, fines, penalty points, or even having your vehicle clamped or seized. This section helps you understand the key timelines every driver should monitor and offers simple ways to stay reminded—so you can drive with peace of mind and full compliance."
+        },
+        {
+          "type": "img",
+          "src": "2.jpeg"
+        },
+        {
+          "type": "heading",
+          "text": "MOT Expiry"
+        },
+        {
+          "type": "text",
+          "text": "The MOT (Ministry of Transport) test ensures that your vehicle meets the minimum road safety and environmental standards required by law. If your vehicle is more than 3 years old, it must undergo an MOT test every year.\n\uD83D\uDC49 What’s the risk? Driving without a valid MOT certificate can result in a fine of up to £1,000, and if you're involved in an accident, your insurance may be considered void.\n\uD83D\uDC49 Where to check: Visit the GOV.UK MOT check service to see your vehicle's current MOT status and renewal date.\n\uD83D\uDC49 Stay reminded: Set a personal reminder on your calendar or sign up for free email/SMS alerts through the GOV.UK MOT reminder service, so you’re never caught out."
+        },
+        {
+          "type": "heading",
+          "text": "Road Tax & Insurance"
+        },
+        {
+          "type": "text",
+          "text": "All vehicles used or parked on public roads must be taxed. If you’re not using your vehicle, you’re legally required to declare it off-road (SORN).\n\uD83D\uDC49 What happens if you don’t tax? Driving an untaxed vehicle can lead to vehicle clamping, fines, or legal prosecution.\n\uD83D\uDC49 Where to check: Use the GOV.UK vehicle tax checker to confirm your tax status.\n\uD83D\uDC49 Payment options: Road tax can be paid monthly, every 6 months, or annually, depending on what suits your budget.\nDriving without valid insurance is a serious offence in the UK.\n\uD83D\uDC49 Risks include:\n&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;\uD83D\uDC49 6 penalty points on your licence\n&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;\uD83D\uDC49 Unlimited fines\n&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;\uD83D\uDC49 Vehicle being seized or destroyed\n\uD83D\uDC49 Pro tip: While many insurance policies renew automatically, don’t assume it’s sorted—check your renewal date and policy terms regularly to ensure continuous coverage."
+        },
+        {
+          "type": "heading",
+          "text": "Driving License Expiry"
+        },
+        {
+          "type": "text",
+          "text": "Your photocard driving licence expires every 10 years, even though your entitlement to drive may extend beyond that.\n\uD83D\uDC49 What’s the risk? Driving with an expired licence can lead to a fine of up to £1,000 and may affect your ability to claim insurance.\n\uD83D\uDC49 How to check & renew: Visit the DVLA licence renewal page to check the expiry and renew online.\n\uD83D\uDC49 Pro tip: Look at the \"4b\" date on your photocard—that’s your licence's expiry date.\n\uD83D\uDC49 Note for older drivers: If you’re 70 or older, you must renew your licence every 3 years."
+        },
+        {
+          "type": "heading",
+          "text": "Emission Zone Checks (ULEZ & LEZ)"
+        },
+        {
+          "type": "text",
+          "text": "To tackle pollution, many UK cities have implemented Low Emission Zones (LEZ) and Ultra Low Emission Zones (ULEZ). Driving a non-compliant vehicle in these areas without paying the required charge can result in hefty penalties.\n\uD83D\uDC49 Where they apply: These zones are active in cities like London, Birmingham, Bath, Oxford, and others.\n\uD83D\uDC49 How to check: Use the ULEZ checker tool by entering your number plate to see if your vehicle is compliant.\n\uD83D\uDC49 Charges:\n&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;\uD83D\uDC49 ULEZ fee: Up to £12.50 per day\n&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;\uD83D\uDC49 Penalty for non-payment: Up to £180\nAlways check before you travel, especially if you're visiting or passing through a city with emission restrictions. Ignorance doesn’t exempt you from fines!"
+        }
+      ]
+    }
+  },
+  {
+    "id": 3,
+    "img": "card3.png",
+    "heading": "Your Legal Rights as A Driver",
+    "subtitle": "Know your rights on issues like CCJs, clamping, DVLA data use, and how political boundaries affect driving rules"
+  },
+  {
+    "id": 4,
+    "img": "card4.jpeg",
+    "heading": "Driving Apps & Tech Tools",
+    "subtitle": "Explore top driving apps for tracking, monitoring car health, comparing fuel prices, and more."
+  },
+  {
+    "id": 5,
+    "img": "card5.jpeg",
+    "heading": "Echo & Green Driving",
+    "subtitle": "Adopt eco-friendly habits, locate EV chargers, reduce emissions, and explore grants for going green."
+  },
+  {
+    "id": 6,
+    "img": "card6.jpeg",
+    "heading": "Roads & Travels Explained",
+    "subtitle": "Access real-time traffic updates, roadworks info, smart motorway guidance, and safety alerts for smarter journeys."
+  },
+  {
+    "id": 7,
+    "img": "card7.jpeg",
+    "heading": "Parking Made Simple",
+    "subtitle": "Simplify parking with tools for finding council zones, applying for permits, and comparing parking apps."
+  },
+  {
+    "id": 8,
+    "img": "card8.jpeg",
+    "heading": "DIY & Emergency Help",
+    "subtitle": "Be prepared for emergencies with car kits, tyre changes, jump-start tips, and winter readiness."
+  }
+]

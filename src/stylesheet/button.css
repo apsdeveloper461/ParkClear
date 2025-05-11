@@ -1,0 +1,29 @@
+.btn, .btn:link, .btn:visited {
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 1.5rem 4rem;
+    display: inline-block;
+    border-radius: 1.2rem;
+    transition: all 0.2s;
+    position: relative;
+    font-size: 1.2rem;
+    color: var(--color-white);
+    border: none;
+    cursor: pointer;
+}
+
+.btn-primary {
+    background-color: var(--color-primary);
+}
+
+.btn-primary:hover {
+    background-color: var(--color-primary-dark);
+}
+
+.btn-secondary {
+    background-color: var(--color-secondary);
+}
+
+.btn-secondary:hover {
+    background-color: var(--color-secondary-dark);
+}
