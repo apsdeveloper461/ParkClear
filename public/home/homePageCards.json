@@ -1,9 +1,9 @@
 [
   {
     "id": 1,
-    "img": "card1.png",
-    "heading": "PCNs & Fines Explained",
-    "subtitle": "Understand the differences between PCNs and private charges, how to appeal or pay fines, and what happens if you ignore them.",
+    "img": "card1.jpg",
+    "heading": "Smart FAQ System",
+    "subtitle": "A searchable FAQ addressing common driver admin queries.",
     "pageContent": {
       "main": {
         "heading1": "PCNs and ",
@@ -58,9 +58,9 @@
   },
   {
     "id": 2,
-    "img": "card2.jpeg",
-    "heading": "Driving Timelines & Remainders",
-    "subtitle": "Stay ahead with alerts for MOTs, license renewals, road tax, insurance, and emission zone deadlines.",
+    "img": "card2.jpg",
+    "heading": "Letter Translator",
+    "subtitle": "Auto-translate car letters received, insurance paperwork into their local language as theres over 120 ethnicities in London. ",
     "pageContent": {
       "main": {
         "heading1": "Driving",
@@ -115,38 +115,98 @@
   },
   {
     "id": 3,
-    "img": "card3.png",
-    "heading": "Your Legal Rights as A Driver",
-    "subtitle": "Know your rights on issues like CCJs, clamping, DVLA data use, and how political boundaries affect driving rules"
+    "img": "card3.jpg",
+    "heading": "Penalty Cost Transparency",
+    "subtitle": "Clearly outline the costs of fines (e.g., parking, speeding) and related penalties."
   },
   {
     "id": 4,
-    "img": "card4.jpeg",
-    "heading": "Driving Apps & Tech Tools",
-    "subtitle": "Explore top driving apps for tracking, monitoring car health, comparing fuel prices, and more."
+    "img": "card4.png",
+    "heading": "Affiliate-Linked Insurance Guide",
+    "subtitle": "A resource explaining penalties for driving uninsured with links to price comparison sites."
   },
   {
     "id": 5,
-    "img": "card5.jpeg",
-    "heading": "Echo & Green Driving",
-    "subtitle": "Adopt eco-friendly habits, locate EV chargers, reduce emissions, and explore grants for going green."
+    "img": "card5.jpg",
+    "heading": "New Driver Resources",
+    "subtitle": "A section dedicated to helping new drivers navigate admin, licensing, and fines."
   },
   {
     "id": 6,
-    "img": "card6.jpeg",
-    "heading": "Roads & Travels Explained",
-    "subtitle": "Access real-time traffic updates, roadworks info, smart motorway guidance, and safety alerts for smarter journeys."
+    "img": "card6.jpg",
+    "heading": "Car Maintenance Checklist",
+    "subtitle": "Essential tasks for keeping vehicles roadworthy (e.g., tyre checks, oil levels, MOT prep). "
   },
   {
     "id": 7,
-    "img": "card7.jpeg",
-    "heading": "Parking Made Simple",
-    "subtitle": "Simplify parking with tools for finding council zones, applying for permits, and comparing parking apps."
+    "img": "card7.jpg",
+    "heading": "How to Buy a Car",
+    "subtitle": "A guide on purchasing new or used vehicles, avoiding scams, and understanding financing."
   },
   {
     "id": 8,
-    "img": "card8.jpeg",
-    "heading": "DIY & Emergency Help",
-    "subtitle": "Be prepared for emergencies with car kits, tyre changes, jump-start tips, and winter readiness."
+    "img": "card8.jpg",
+    "heading": "Eco-Driving Tips",
+    "subtitle": "Encourage better fuel efficiency and sustainability for everyday drivers."
+  },
+  {
+    "id": 9,
+    "img": "card9.jpg",
+    "heading": "Driving Without Insurance Penalties",
+    "subtitle": "A standalone article highlighting the consequences and how to stay compliant."
+  },
+  {
+    "id": 10,
+    "img": "card10.jpg",
+    "heading": "Legal Myths About Driving",
+    "subtitle": "Bust common misconceptions about PCNs, parking laws, and admin processes."
+  },
+  {
+    "id": 12,
+    "img": "card12.jpg",
+    "heading": "Affiliate Links for Maintenance Services",
+    "subtitle": "Partnered recommendations for garages, tools, or breakdown services."
+  },
+  {
+    "id": 13,
+    "img": "card13.jpg",
+    "heading": "Guide to Congestion and ULEZ Zones",
+    "subtitle": "Maps and advice on avoiding restricted areas."
+  },
+  {
+    "id": 15,
+    "img": "card15.jpg",
+    "heading": "Seasonal Driving Safety Tips",
+    "subtitle": "Advice on handling winter or summer road challenges."
+  },
+  {
+    "id": 16,
+    "img": "card16.jpg",
+    "heading": "Interactive Route Planning",
+    "subtitle": "Help drivers plan trips to avoid fines or restricted areas, possibly linking to existing mapping tools and show them where they can park."
+  },
+  {
+    "id": 17,
+    "img": "card17.jpg",
+    "heading": "Affiliate-Linked Tools for Gig Economy Drivers",
+    "subtitle": "Specific guidance for Uber, Deliveroo, and similar workers, including tax tips and insurance advice."
+  },
+  {
+    "id": 18,
+    "img": "card18.jpg",
+    "heading": "Road Safety Tips",
+    "subtitle": "Guidance on dealing with emergencies and reducing risks on the road."
+  },
+  {
+    "id": 19,
+    "img": "card19.jpg",
+    "heading": "Fuel Cost and Efficiency Tools",
+    "subtitle": "Tips and calculators to help drivers save on fuel."
+  },
+  {
+    "id": 20,
+    "img": "card20.jpg",
+    "heading": "Driving Instructor Directories",
+    "subtitle": "Partner with driving schools to help new drivers find instructors in their area."
   }
 ]

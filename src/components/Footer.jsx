@@ -42,12 +42,22 @@ const Footer = () => {
           <a href="#">Driver Knowledge Hub</a>
           <a href="#">About Us</a>
         </nav>
+
         <div className="footer-icons">
-          <a href="#"><i className="fab fa-facebook-f"></i></a>
-          <a href="#"><i className="fab fa-instagram"></i></a>
-          <a href="#"><i className="fas fa-times"></i></a>
-          <a href="#"><i className="fab fa-tiktok"></i></a>
+          <a href="#" className="footer-icon">
+            <i className="fab fa-facebook-f"></i>
+          </a>
+          <a href="#" className="footer-icon">
+            <i className="fab fa-instagram"></i>
+          </a>
+          <a href="#" className="footer-icon">
+            <i className="fas fa-times"></i>
+          </a>
+          <a href="#" className="footer-icon">
+            <i className="fab fa-tiktok"></i>
+          </a>
         </div>
+
       </div>
     </footer>
   );
