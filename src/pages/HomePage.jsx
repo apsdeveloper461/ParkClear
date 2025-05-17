@@ -20,7 +20,7 @@ const HomePage = () => {
           isSearch={true} home={true} />
 
     <InfoBanner />
-    <Cards search={searchData} />
+    <Cards search={searchData} setSearch={setSearchData} />
     <Footer />
   </div>);
 };

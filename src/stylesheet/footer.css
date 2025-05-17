@@ -33,7 +33,7 @@
 }
 
 .footer-section ul li a,
-.footer-section a {
+.footer-section a,.ancher {
     text-decoration: none;
     color: var(--color-secondary);
     font-size: 1.3rem;
@@ -74,6 +74,7 @@
     font-weight: 500;
     font-size: 1.4rem;
 }
+
 
 .footer-icons {
     display: flex;
