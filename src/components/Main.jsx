@@ -16,7 +16,7 @@ const Main = ({
   return (
     <main className={`main pad ${home && "main__home"}`}>
       <div className='main__content'>
-        <h1 className='heading '>
+        <h1 className={`heading ${home && 'center_content'} `}>
           <span className='heading heading--primary'>{heading1 + " "}</span>
           {heading2 && (
             <span className='heading heading--secondary'>{heading2 + " "}</span>
@@ -44,7 +44,7 @@ const Main = ({
         )}
         {/* Search Bar End */}
         {subtitle && (
-          <p className='heading--subtitle'>
+          <p className={`${home? "heading--subtitle--home" :'heading--subtitle'}`}>
             Tips, Guidelines and Resources For Smarter Parking and Safer
             Driving.
           </p>
