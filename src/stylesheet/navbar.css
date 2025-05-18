@@ -16,7 +16,7 @@
 .navbar__logo {
     /*background-color: black;*/
     height: 6rem;
-    width: 9rem;
+    width: auto;
 }
 
 .navbar__brand {
@@ -48,6 +48,10 @@
 @media only screen and (max-width: 900px) {
     .hideOnSmall {
         display: none;
+    }
+    .navbar__logo {
+        /*background-color: black;*/
+        height: 5rem;
     }
 }
 
