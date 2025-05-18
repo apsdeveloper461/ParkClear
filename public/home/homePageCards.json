@@ -126,172 +126,218 @@
         "subtitle": "Understand the costs associated with various driving penalties, including parking fines, speeding tickets, and more.",
         "btn1text": "Explore Penalty Costs"
       },
-        "content": [
-          {
-            "type": "heading",
-            "text": "What Is a PCN?"
-          },
-          {
-            "type": "text",
-            "text": "A Penalty Charge Notice (PCN) is an official fine issued by a local authority or transport body (like a council or Transport for London) for breaking certain traffic, parking, or road-use rules.\nThis is not the same as a private parking ticket."
-          },
-          {
-            "type": "heading",
-            "text": "PCN vs. Parking Charge Notice (Private)"
-          },
-          {
-            "type": "table",
-            "data": {
-              "headers": ["Feature", "PCN (Penalty Charge Notice)", "PPC (Parking Charge Notice)"],
-              "rows": [
-                ["Issued by", "Councils, TfL", "Supermarkets, retail parks, private landowners"],
-                ["Legal basis", "Civil enforcement under the Traffic Management Act", "Contract law – not a fine, but a breach of terms"],
-                ["Appeal process", "Through council, then tribunal", "Through parking company, then POPLA or IAS"],
-                ["Enforcement", "Can lead to bailiffs and County Court Judgments (CCJs)", "Can lead to debt collectors and CCJs if court claim is issued"],
-                ["Example", "Bus lane fine, yellow box junction, ULEZ", "Overstaying 2-hour limit at retail park"]
+      "content": [
+        {
+          "type": "heading",
+          "text": "What Is a PCN?"
+        },
+        {
+          "type": "text",
+          "text": "A Penalty Charge Notice (PCN) is an official fine issued by a local authority or transport body (like a council or Transport for London) for breaking certain traffic, parking, or road-use rules.\nThis is not the same as a private parking ticket."
+        },
+        {
+          "type": "heading",
+          "text": "PCN vs. Parking Charge Notice (Private)"
+        },
+        {
+          "type": "table",
+          "data": {
+            "headers": [
+              "Feature",
+              "PCN (Penalty Charge Notice)",
+              "PPC (Parking Charge Notice)"
+            ],
+            "rows": [
+              [
+                "Issued by",
+                "Councils, TfL",
+                "Supermarkets, retail parks, private landowners"
+              ],
+              [
+                "Legal basis",
+                "Civil enforcement under the Traffic Management Act",
+                "Contract law – not a fine, but a breach of terms"
+              ],
+              [
+                "Appeal process",
+                "Through council, then tribunal",
+                "Through parking company, then POPLA or IAS"
+              ],
+              [
+                "Enforcement",
+                "Can lead to bailiffs and County Court Judgments (CCJs)",
+                "Can lead to debt collectors and CCJs if court claim is issued"
+              ],
+              [
+                "Example",
+                "Bus lane fine, yellow box junction, ULEZ",
+                "Overstaying 2-hour limit at retail park"
               ]
-            }
-          },
-          {
-            "type": "text",
-            "text": "Use [ParkClear's TicketTracker](/) to identify what kind of fine you've received. It's the easiest way to track, understand, and appeal your tickets."
-          },
-          {
-            "type": "heading",
-            "text": "Common Reasons You Might Get a PCN"
-          },
-          {
-            "type": "unlist",
-            "items": [
-              "Driving in a bus lane during restricted hours",
-              "Stopping in a yellow box junction",
-              "Parking in a resident bay without a permit",
-              "Not paying Congestion Charge, ULEZ, or Dart Charge",
-              "Parking on double yellows, school zones, or red routes"
-            ]
-          },
-          {
-            "type": "heading",
-            "text": "Penalty Charges – Fully Transparent"
-          },
-          {
-            "type": "table",
-            "data": {
-              "headers": ["Offence Type", "Where", "Standard Fine", "Discounted (within 14 days)", "Late Penalty"],
-              "rows": [
-                ["Bus Lane", "Nationwide", "£60–£70", "£30–£35", "£90–£105"],
-                ["Yellow Box", "London", "£130", "£65", "£195"],
-                ["Congestion Charge", "London", "£160", "£80", "£240"],
-                ["Dart Charge", "Dartford Crossing", "£70", "£35", "£105"],
-                ["Silvertown Tunnel", "Coming 2025", "Expected £160", "£80", "£240"],
-                ["ULEZ", "London", "£180", "£90", "£270"],
-                ["Red Route", "TfL Roads", "£160", "£80", "£240"]
-              ]
-            }
-          },
-          {
-            "type": "text",
-            "text": "Missed deadlines = escalating fines. ParkClear can help you avoid this with automatic reminders through TicketTracker."
-          },
-          {
-            "type": "heading",
-            "text": "What Happens If You Ignore a PCN?"
-          },
-          {
-            "type": "list",
-            "items": [
-              "Day 0: PCN issued",
-              "Day 1–14: Discount period – pay 50%",
-              "Day 15–28: Pay full fine or challenge it",
-              "After 28 days: Council sends Notice to Owner (NTO)",
-              "No payment: Charge Certificate issued – fine increases by 50%",
-              "Still ignored: Debt registered at county court",
-              "Bailiffs may be instructed",
-              "You may receive a County Court Judgment (CCJ) – this affects your credit score for 6 years"
-            ]
-          },
-          {
-            "type": "text",
-            "text": "ParkClear's Appeals Support can help you challenge unfair fines before they escalate. Don't delay — get help fast."
-          },
-          {
-            "type": "heading",
-            "text": "How to Appeal – Step-by-Step"
-          },
-          {
-            "type": "subheading",
-            "text": "Public (Council-issued) PCNs"
-          },
-          {
-            "type": "list",
-            "items": [
-              "Early challenge: Send evidence online within 14 days",
-              "If rejected, wait for a Notice to Owner (NTO), then submit a formal appeal",
-              "Still rejected? Escalate to:\n  [London Tribunals](https://www.londontribunals.gov.uk/)\n  [Traffic Penalty Tribunal](https://www.trafficpenaltytribunal.gov.uk/)"
-            ]
-          },
-          {
-            "type": "subheading",
-            "text": "Private Parking Charge Notices"
-          },
-          {
-            "type": "list",
-            "items": [
-              "Appeal to the parking company",
-              "If denied, escalate to:\n  [POPLA](https://www.popla.co.uk/) (BPA members)\n  [IAS](https://www.theias.org/) (IPC members)"
-            ]
-          },
-          {
-            "type": "text",
-            "text": "Use [ParkClear Appeals Support](/) to build and send your case with expert-reviewed templates."
-          },
-          {
-            "type": "heading",
-            "text": "Myths Debunked"
-          },
-          {
-            "type": "table",
-            "data": {
-              "headers": ["Myth", "Reality"],
-              "rows": [
-                ["\"Private tickets aren't real.\"", "They can still go to court and result in a CCJ."],
-                ["\"They have to show me photos.\"", "Councils usually do, but not always. Don't assume you're safe."],
-                ["\"If I ignore it long enough, it'll go away.\"", "Ignored fines escalate to bailiffs and court."],
-                ["\"Only police can fine you.\"", "Councils and private companies are legally allowed to issue enforceable notices."]
-              ]
-            }
-          },
-          {
-            "type": "heading",
-            "text": "🔗 Essential Resources"
-          },
-          {
-            "type": "list",
-            "items": [
-              "[Check if you have a fine](https://thedebtadviceservice.co.uk/check-vehicle-fines/)",
-              "[Appealing parking tickets – Citizens Advice](https://www.citizensadvice.org.uk/law-and-courts/parking-tickets/appealing-a-parking-ticket/)",
-              "TfL PCN Details",
-              "[Traffic Penalty Tribunal](https://www.trafficpenaltytribunal.gov.uk/)",
-              "[POPLA – Private Parking Appeals](https://www.popla.co.uk/)"
-            ]
-          },
-          {
-            "type": "heading",
-            "text": "ParkClear Makes It Simple"
-          },
-          {
-            "type": "unlist",
-            "items": [
-              "Use TicketTracker to scan and understand any fine",
-              "Get alerts for upcoming deadlines",
-              "Generate an appeal in minutes",
-              "Speak to real people if you're confused or worried"
             ]
           }
-        ]
-      }
-    
-    
+        },
+        {
+          "type": "text",
+          "text": "Use [ParkClear's TicketTracker](/) to identify what kind of fine you've received. It's the easiest way to track, understand, and appeal your tickets."
+        },
+        {
+          "type": "heading",
+          "text": "Common Reasons You Might Get a PCN"
+        },
+        {
+          "type": "unlist",
+          "items": [
+            "Driving in a bus lane during restricted hours",
+            "Stopping in a yellow box junction",
+            "Parking in a resident bay without a permit",
+            "Not paying Congestion Charge, ULEZ, or Dart Charge",
+            "Parking on double yellows, school zones, or red routes"
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Penalty Charges – Fully Transparent"
+        },
+        {
+          "type": "table",
+          "data": {
+            "headers": [
+              "Offence Type",
+              "Where",
+              "Standard Fine",
+              "Discounted (within 14 days)",
+              "Late Penalty"
+            ],
+            "rows": [
+              ["Bus Lane", "Nationwide", "£60–£70", "£30–£35", "£90–£105"],
+              ["Yellow Box", "London", "£130", "£65", "£195"],
+              ["Congestion Charge", "London", "£160", "£80", "£240"],
+              ["Dart Charge", "Dartford Crossing", "£70", "£35", "£105"],
+              [
+                "Silvertown Tunnel",
+                "Coming 2025",
+                "Expected £160",
+                "£80",
+                "£240"
+              ],
+              ["ULEZ", "London", "£180", "£90", "£270"],
+              ["Red Route", "TfL Roads", "£160", "£80", "£240"]
+            ]
+          }
+        },
+        {
+          "type": "text",
+          "text": "Missed deadlines = escalating fines. ParkClear can help you avoid this with automatic reminders through TicketTracker."
+        },
+        {
+          "type": "heading",
+          "text": "What Happens If You Ignore a PCN?"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Day 0: PCN issued",
+            "Day 1–14: Discount period – pay 50%",
+            "Day 15–28: Pay full fine or challenge it",
+            "After 28 days: Council sends Notice to Owner (NTO)",
+            "No payment: Charge Certificate issued – fine increases by 50%",
+            "Still ignored: Debt registered at county court",
+            "Bailiffs may be instructed",
+            "You may receive a County Court Judgment (CCJ) – this affects your credit score for 6 years"
+          ]
+        },
+        {
+          "type": "text",
+          "text": "ParkClear's Appeals Support can help you challenge unfair fines before they escalate. Don't delay — get help fast."
+        },
+        {
+          "type": "heading",
+          "text": "How to Appeal – Step-by-Step"
+        },
+        {
+          "type": "subheading",
+          "text": "Public (Council-issued) PCNs"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Early challenge: Send evidence online within 14 days",
+            "If rejected, wait for a Notice to Owner (NTO), then submit a formal appeal",
+            "Still rejected? Escalate to:\n  [London Tribunals](https://www.londontribunals.gov.uk/)\n  [Traffic Penalty Tribunal](https://www.trafficpenaltytribunal.gov.uk/)"
+          ]
+        },
+        {
+          "type": "subheading",
+          "text": "Private Parking Charge Notices"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Appeal to the parking company",
+            "If denied, escalate to:\n  [POPLA](https://www.popla.co.uk/) (BPA members)\n  [IAS](https://www.theias.org/) (IPC members)"
+          ]
+        },
+        {
+          "type": "text",
+          "text": "Use [ParkClear Appeals Support](/) to build and send your case with expert-reviewed templates."
+        },
+        {
+          "type": "heading",
+          "text": "Myths Debunked"
+        },
+        {
+          "type": "table",
+          "data": {
+            "headers": ["Myth", "Reality"],
+            "rows": [
+              [
+                "\"Private tickets aren't real.\"",
+                "They can still go to court and result in a CCJ."
+              ],
+              [
+                "\"They have to show me photos.\"",
+                "Councils usually do, but not always. Don't assume you're safe."
+              ],
+              [
+                "\"If I ignore it long enough, it'll go away.\"",
+                "Ignored fines escalate to bailiffs and court."
+              ],
+              [
+                "\"Only police can fine you.\"",
+                "Councils and private companies are legally allowed to issue enforceable notices."
+              ]
+            ]
+          }
+        },
+        {
+          "type": "heading",
+          "text": "🔗 Essential Resources"
+        },
+        {
+          "type": "list",
+          "items": [
+            "[Check if you have a fine](https://thedebtadviceservice.co.uk/check-vehicle-fines/)",
+            "[Appealing parking tickets – Citizens Advice](https://www.citizensadvice.org.uk/law-and-courts/parking-tickets/appealing-a-parking-ticket/)",
+            "TfL PCN Details",
+            "[Traffic Penalty Tribunal](https://www.trafficpenaltytribunal.gov.uk/)",
+            "[POPLA – Private Parking Appeals](https://www.popla.co.uk/)"
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "ParkClear Makes It Simple"
+        },
+        {
+          "type": "unlist",
+          "items": [
+            "Use TicketTracker to scan and understand any fine",
+            "Get alerts for upcoming deadlines",
+            "Generate an appeal in minutes",
+            "Speak to real people if you're confused or worried"
+          ]
+        }
+      ]
+    }
   },
   {
     "id": 4,
@@ -315,13 +361,224 @@
     "id": 7,
     "img": "card7.jpg",
     "heading": "How to Buy a Car",
-    "subtitle": "A guide on purchasing new or used vehicles, avoiding scams, and understanding financing."
+    "subtitle": "A guide on purchasing new or used vehicles, avoiding scams, and understanding financing.",
+    "pageContent": {
+      "main": {
+        "heading1": "Buying a",
+        "heading2": "Car",
+        "heading3": "& Avoiding Scams",
+        "subtitle": "Navigate the car-buying process with confidence and avoid common pitfalls.",
+        "btn1text": "Explore Car Buying Tips"
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "Buying a car can be an exciting yet daunting experience. With so many options available, it’s essential to do your research and understand the process to avoid scams and make an informed decision. This guide will help you navigate the car-buying journey, from understanding different types of vehicles to knowing what to look for when inspecting a car."
+        },
+        {
+          "type": "img",
+          "src": "buying.jpg"
+        },
+
+        {
+          "type": "heading",
+          "text": "What to Check Before Buying a Car"
+        },
+        {
+          "type": "list",
+          "items": [
+            "HPI check – Confirms if the car has outstanding finance, has been written off, or stolen",
+            "MOT history – Look for patterns of failures or advisories on GOV.UK MOT history check",
+            "Service history – Full records show the car’s been maintained",
+            "Recalls – Check with the manufacturer to see if any recalls are outstanding",
+            "V5C logbook – Make sure the seller is listed as the registered keeper",
+            "Mileage – Ensure it's consistent with MOT and service records"
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Selling or Transferring Ownership – Step by Step"
+        },
+        {
+          "type": "unlist",
+          "items": [
+            "Complete the V5C – Fill out and give the green “new keeper” slip to the buyer",
+            "Inform the DVLA – Online or by post (if using paper logbook)",
+            "Cancel your insurance – Once the sale is complete",
+            "Keep a copy – Take a photo or copy of the buyer's details and documents just in case"
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Key Documents to Collect or Pass On"
+        },
+        {
+          "type": "list",
+          "items": [
+            "V5C (logbook)",
+            "MOT certificate",
+            "Service history and receipts",
+            "Owner’s manual",
+            "Any warranty or finance documents (if relevant)"
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Leasing vs. Buying – Pros & Cons"
+        },
+        {
+          "type": "table",
+          "data": {
+            "headers": [
+              "Feature",
+              "Leasing (Personal Contract Hire or PCP)",
+              "Buying (Outright or with finance)"
+            ],
+            "rows": [
+              [
+                "Monthly Cost",
+                "✅ Lower monthly payments",
+                "❌ Larger upfront cost or loan commitment"
+              ],
+              [
+                "Ownership",
+                "❌ You don’t own the vehicle",
+                "✅ You own the car at the end"
+              ],
+              [
+                "Mileage",
+                "❌ Mileage limits and excess fees",
+                "✅ No mileage restrictions"
+              ],
+              [
+                "Maintenance",
+                "✅ Maintenance often included",
+                "❌ You handle all maintenance"
+              ],
+              [
+                "Long-Term Value",
+                "✅ New car every few years",
+                "✅ Better long-term value if kept for years"
+              ]
+            ]
+          }
+        },
+        {
+          "type": "heading",
+          "text": "ParkClear Helps with Car Admin"
+        },
+        {
+          "type": "unlist",
+          "items": [
+            "Upload service history and logbook details",
+            "Track your car’s value over time",
+            "Store reminders for warranty, lease return, or finance dates",
+            "Get tips on what to check when buying or selling",
+            "[Use ParkClear to manage your vehicle's lifecycle](/)"
+          ]
+        }
+      ]
+    }
   },
   {
     "id": 8,
     "img": "card8.jpg",
     "heading": "Eco-Driving Tips",
-    "subtitle": "Encourage better fuel efficiency and sustainability for everyday drivers."
+    "subtitle": "Encourage better fuel efficiency and sustainability for everyday drivers.",
+    "pageContent": {
+      "main": {
+        "heading1": "Eco-",
+        "heading2": "Driving",
+        "heading3": "& Sustainability",
+        "subtitle": "Learn how to drive more sustainably and reduce your carbon footprint.",
+        "btn1text": "Explore Eco-Driving Tips"
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "Eco-driving is about adopting driving habits that reduce fuel consumption, emissions, and overall environmental impact. By making small changes to your driving style and vehicle maintenance, you can contribute to a cleaner planet while saving money on fuel costs."
+        },
+        {
+          "type": "img",
+          "src": "eco.jpg"
+        },
+        {
+              "type": "heading",
+              "text": "What Is Eco-Driving?"
+            },
+            {
+              "type": "text",
+              "text": "Eco-driving combines smart driving habits and vehicle maintenance to reduce fuel consumption, lower emissions, and save money."
+            },
+            {
+              "type": "heading",
+              "text": "Eco-Driving Techniques"
+            },
+            {
+              "type": "list",
+              "items": [
+                "Anticipate traffic flow – Avoid unnecessary braking/accelerating",
+                "Shift gears early – Change up at 2,000 RPM (petrol) or 1,500 RPM (diesel)",
+                "Use cruise control on highways – Maintains steady speed",
+                "Turn off the engine for stops longer than 60 seconds",
+                "Plan routes to avoid congestion and steep gradients"
+              ]
+            },
+            {
+              "type": "heading",
+              "text": "Vehicle Maintenance for Efficiency"
+            },
+            {
+              "type": "table",
+              "data": {
+                "headers": ["Component", "Action", "Impact"],
+                "rows": [
+                  [
+                    "Tyres",
+                    "Keep inflated to manufacturer’s PSI",
+                    "3% fuel saving"
+                  ],
+                  [
+                    "Engine oil",
+                    "Use low-friction, manufacturer-grade oil",
+                    "2% efficiency boost"
+                  ],
+                  [
+                    "Air filter",
+                    "Replace clogged filters",
+                    "Prevents 10% excess fuel use"
+                  ],
+                  [
+                    "Excess weight",
+                    "Remove roof racks/unused items",
+                    "1-2% per 45kg removed"
+                  ]
+                ]
+              }
+            },
+            {
+              "type": "heading",
+              "text": "Benefits of Eco-Driving"
+            },
+            {
+              "type": "list",
+              "items": [
+                "Save £200–£500/year on fuel (based on 8,000 miles)",
+                "Reduce CO2 emissions by 15–30%",
+                "Extend engine and brake lifespan",
+                "Lower insurance premiums (safer driving habits)"
+              ]
+            },
+            {
+              "type": "heading",
+              "text": "Track Your Progress"
+            },
+            {
+              "type": "text",
+              "text": "Use apps like Fuelio or Drivvo to monitor fuel usage and optimize habits. For EVs, check Zap-Map for efficient charging routes."
+            }
+      ]
+    }
   },
   {
     "id": 9,
@@ -333,13 +590,173 @@
     "id": 10,
     "img": "card10.jpg",
     "heading": "Legal Myths About Driving",
-    "subtitle": "Bust common misconceptions about PCNs, parking laws, and admin processes."
+    "subtitle": "Bust common misconceptions about PCNs, parking laws, and admin processes.",
+    "pageContent": {
+      "main": {
+        "heading1": "Legal",
+        "heading2": "Myths",
+        "heading3": "& Facts",
+        "subtitle": "Uncover the truth behind common driving myths and misconceptions.",
+        "btn1text": "Explore Legal Myths"
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "There are many myths and misconceptions surrounding driving laws, penalties, and vehicle ownership. This section aims to clarify some of the most common misunderstandings, helping you navigate the road with confidence and knowledge."
+        },
+        {
+          "type": "heading",
+          "text": "Legal Myths About Driving"
+        },
+        {
+          "type": "text",
+          "text": "Many drivers misunderstand their legal obligations around fines, parking rules, and administrative processes. Let’s debunk common false beliefs to help you avoid penalties, protect your licence, and save money."
+        },
+        {
+          "type": "img",
+          "src": "myths.jpg"
+        },
+        {
+          "type": "table",
+          "data": {
+            "headers": ["Myth", "Reality"],
+            "rows": [
+              [
+                "“Private parking tickets aren’t legally enforceable.”",
+                "False: Private operators can pursue you through civil courts for breaches of contract, potentially leading to CCJs."
+              ],
+              [
+                "“If a parking sign is faded, the PCN is invalid.”",
+                "Partially true: Poor signage **may** help an appeal, but you must still respond to the notice."
+              ],
+              [
+                "“Only police can issue driving fines.”",
+                "False: Councils, TfL, and private operators legally enforce PCNs for traffic/parking violations."
+              ],
+              [
+                "“Ignoring a PCN makes it disappear.”",
+                "Dangerous: Unpaid fines increase by 50-100% and may result in bailiff action or licence sanctions."
+              ]
+            ]
+          }
+        },
+        {
+          "type": "text",
+          "text": "Key Facts:\n- 38% of PCN appeals succeed when backed by evidence\n- 1.2 million CCJs issued annually for unpaid private parking charges\n- 72% of drivers overpay fines due to misunderstanding escalation rules"
+        },
+        {
+          "type": "heading",
+          "text": "Tips"
+        },
+
+        {
+          "type": "list",
+          "items": [
+            "Always verify PCN details online before paying",
+            "Submit appeals within 14 days to preserve discount rights",
+            "Use official portals like [GOV.UK](https://www.gov.uk/) or [POPLA](https://www.popla.co.uk/) for disputes"
+          ]
+        }
+      ]
+    }
   },
   {
     "id": 12,
     "img": "card12.jpg",
     "heading": "Affiliate Links for Maintenance Services",
-    "subtitle": "Partnered recommendations for garages, tools, or breakdown services."
+    "subtitle": "Partnered recommendations for garages, tools, or breakdown services.",
+    "pageContent": {
+      "main": {
+        "heading1": "Maintenance",
+        "heading2": "Services",
+        "heading3": "& Tools",
+        "subtitle": "Find trusted garages, tools, and breakdown services to keep your vehicle in top shape.",
+        "btn1text": "Explore Maintenance Services"
+      },
+
+      "content": [
+        {
+          "type": "heading",
+          "text": "Vehicle Servicing & MOT"
+        },
+        {
+          "type": "subheading",
+          "text": "MOT Rules: When It's Due & What's Tested"
+        },
+        {
+          "type": "text",
+          "text": "You must get an MOT every year once your vehicle is 3 years old. You can check your MOT status and expiry date on [GOV.UK](https://www.gov.uk/check-mot-status).\nThe MOT checks safety, roadworthiness, and emissions. Recent updates include:"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Stricter rules for diesel emissions",
+            "New defect categories: Dangerous, Major, and Minor"
+          ]
+        },
+        {
+          "type": "subheading",
+          "text": "Full vs. Interim Servicing"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Interim Service: Every 6 months or 6,000 miles",
+            "Full Service: Every 12 months or 12,000 miles"
+          ]
+        },
+        {
+          "type": "text",
+          "text": "A full service includes checks on:"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Brakes and suspension",
+            "Engine oil and filters",
+            "Tyres and battery",
+            "Lights, wipers, and fluid levels"
+          ]
+        },
+        {
+          "type": "subheading",
+          "text": "Reminder Tools"
+        },
+        {
+          "type": "text",
+          "text": "Use apps, smartphone calendars, or garage services to set reminders for your next MOT and service.\n👉 ParkClear is building an automatic MOT and servicing reminder system into your dashboard to help you stay on track."
+        },
+        {
+          "type": "subheading",
+          "text": "Avoiding Scams & Upsells"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Always ask for a written quote or breakdown of costs",
+            "Don't approve urgent repairs without proof",
+            "Ask for replaced parts to be returned to you",
+            "Watch for unnecessary \"extra\" services or fluid top-ups"
+          ]
+        },
+        {
+          "type": "subheading",
+          "text": "Finding a Trustworthy Garage"
+        },
+        {
+          "type": "img",
+          "src": "service.jpg"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Use [Trust My Garage](https://www.trustmygarage.co.uk/) to find independently vetted garages",
+            "Check Google or Trustpilot reviews",
+            "Look for garages approved by the Motor Ombudsman or your car's manufacturer"
+          ]
+        }
+      ]
+    }
   },
   {
     "id": 13,
@@ -375,8 +792,68 @@
     "id": 19,
     "img": "card19.jpg",
     "heading": "Fuel Cost and Efficiency Tools",
-    "subtitle": "Tips and calculators to help drivers save on fuel."
+    "subtitle": "Tips and calculators to help drivers save on fuel.",
+    "pageContent": {
+      "main": {
+        "heading1": "Fuel",
+        "heading2": "Cost",
+        "heading3": "& Efficiency",
+        "subtitle": "Discover tips and tools to help you save on fuel costs and improve your vehicle's efficiency.",
+        "btn1text": "Explore Fuel Savings"
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "Fuel costs can be a significant part of your driving expenses. Understanding how to save on fuel and improve your vehicle's efficiency can lead to substantial savings over time. This section provides tips, tools, and resources to help you make informed decisions about your fuel consumption."
+        },
+        {
+          "type": "img",
+          "src": "fuel.jpg"
+        },
+        {
+          "type": "heading",
+          "text": "Running Costs"
+        },
+        {
+          "type": "heading",
+          "text": "Breakdown of Ongoing Costs"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Fuel – Petrol or diesel, affected by driving habits and vehicle type",
+            "Insurance – Mandatory by law; cost varies by age, driving history, postcode, and car model",
+            "Servicing and Repairs – Regular maintenance and unexpected fixes",
+            "Road Tax (Vehicle Excise Duty) – Based on emissions and age of vehicle",
+            "Depreciation – Loss of value over time, especially high in the first 3 years"
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Fuel-Saving Tips and Driving Habits"
+        },
+        {
+          "type": "unlist",
+          "items": [
+            "Drive smoothly — avoid rapid acceleration and harsh braking",
+            "Maintain steady speeds — cruise control helps on motorways",
+            "Keep tyres inflated to manufacturer specs",
+            "Remove roof boxes, bike racks, and boot clutter",
+            "Avoid idling when parked"
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Road Tax Bands and Calculators"
+        },
+        {
+          "type": "text",
+          "text": "Your annual road tax depends on emissions, fuel type, and registration date. Check your rate using the [GOV.UK vehicle tax calculator](https://www.gov.uk/check-vehicle-tax)."
+        }
+      ]
+    }
   },
+
   {
     "id": 20,
     "img": "card20.jpg",
