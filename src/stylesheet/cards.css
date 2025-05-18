@@ -22,6 +22,11 @@
         width: 48%;
     }
 }
+@media only screen and (max-width: 600px) {
+    .card {
+        width: 100%;
+    }
+}
 
 .card:hover {
     transform: translateY(-5px);
@@ -42,10 +47,14 @@
 
 @media only screen and (max-width: 600px) {
     .card__image--holder {
-        height: 45rem;
+        height: 35rem;
     }
 }
-
+@media only screen and (max-width: 400px) {
+    .card__image--holder {
+        height: 25rem;
+    }
+}
 .card__image  {
     width: 100%;
     height: 100%;
