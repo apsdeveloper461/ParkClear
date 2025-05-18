@@ -26,6 +26,23 @@
 .singleContentPage__table-wrapper {
   width: 100%;
   overflow-x: auto;
+  scrollbar-width: thin;
+  scrollbar-color: #b3b3b3 #f0f0f0;
+}
+
+.singleContentPage__table-wrapper::-webkit-scrollbar {
+  height: 8px;
+  background: #f0f0f0;
+  border-radius: 8px;
+}
+
+.singleContentPage__table-wrapper::-webkit-scrollbar-thumb {
+  background: #b3b3b3;
+  border-radius: 8px;
+}
+
+.singleContentPage__table-wrapper::-webkit-scrollbar-thumb:hover {
+  background: #888;
 }
 
 .singleContentPage__table {
