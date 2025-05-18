@@ -81,31 +81,33 @@ const SingleContentPage = () => {
             </div>
           );
         case "table":
-          // Render a table with headers and rows
+          // Render a table with headers and rows, wrapped for horizontal scroll
           return (
-            <table
-              className='singleContentPage__table'
+            <div
+              className='singleContentPage__table-wrapper'
               key={index}
             >
-              <thead>
-                <tr>
-                  {Array.isArray(item?.data?.headers) &&
-                    item?.data?.headers?.map((header, idx) => (
-                      <th key={idx}>{header}</th>
-                    ))}
-                </tr>
-              </thead>
-              <tbody>
-                {Array.isArray(item?.data?.rows) &&
-                  item?.data?.rows?.map((row, rowIdx) => (
-                    <tr key={rowIdx}>
-                      {row.map((cell, cellIdx) => (
-                        <td key={cellIdx}>{cell}</td>
+              <table className='singleContentPage__table'>
+                <thead>
+                  <tr>
+                    {Array.isArray(item?.data?.headers) &&
+                      item?.data?.headers?.map((header, idx) => (
+                        <th key={idx}>{header}</th>
                       ))}
-                    </tr>
-                  ))}
-              </tbody>
-            </table>
+                  </tr>
+                </thead>
+                <tbody>
+                  {Array.isArray(item?.data?.rows) &&
+                    item?.data?.rows?.map((row, rowIdx) => (
+                      <tr key={rowIdx}>
+                        {row.map((cell, cellIdx) => (
+                          <td key={cellIdx}>{cell}</td>
+                        ))}
+                      </tr>
+                    ))}
+                </tbody>
+              </table>
+            </div>
           );
 
         case "list":
