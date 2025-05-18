@@ -18,6 +18,7 @@ body {
 .heading--subtitle {
     margin-top: 0.5rem;
     font-size: 2.5rem;
+    line-height: 1.2;
     color: var(--color-grey-dark-3);
 }
 .heading--subtitle--home {
@@ -50,7 +51,9 @@ body {
 a {
     text-decoration: none;
 }
-
+.text-yellow{
+    color: #FFFF00;
+}
 @media only screen and (max-width: 900px) {
     .heading{
         font-size: 6rem;

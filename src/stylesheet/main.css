@@ -72,7 +72,7 @@
     display: flex;
     align-items: center;
     width: 100%;
-    max-width: 570px;
+    max-width: 670px;
     margin: 1rem auto 1.5rem auto;
     background: rgba(255, 255, 255);
 
@@ -111,6 +111,9 @@
     }
     .main__home .main__content{
       padding-top: 12rem;
+    }
+    .main__content{
+      padding-top: 7rem;
     }
     /* .main__searchinput {
       font-size: 1rem;
