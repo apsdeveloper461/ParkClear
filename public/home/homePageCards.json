@@ -117,7 +117,181 @@
     "id": 3,
     "img": "card3.jpg",
     "heading": "Penalty Cost Transparency",
-    "subtitle": "Clearly outline the costs of fines (e.g., parking, speeding) and related penalties."
+    "subtitle": "Clearly outline the costs of fines (e.g., parking, speeding) and related penalties.",
+    "pageContent": {
+      "main": {
+        "heading1": "Penalty",
+        "heading2": "Costs",
+        "heading3": "& Transparency",
+        "subtitle": "Understand the costs associated with various driving penalties, including parking fines, speeding tickets, and more.",
+        "btn1text": "Explore Penalty Costs"
+      },
+        "content": [
+          {
+            "type": "heading",
+            "text": "What Is a PCN?"
+          },
+          {
+            "type": "text",
+            "text": "A Penalty Charge Notice (PCN) is an official fine issued by a local authority or transport body (like a council or Transport for London) for breaking certain traffic, parking, or road-use rules.\nThis is not the same as a private parking ticket."
+          },
+          {
+            "type": "heading",
+            "text": "PCN vs. Parking Charge Notice (Private)"
+          },
+          {
+            "type": "table",
+            "data": {
+              "headers": ["Feature", "PCN (Penalty Charge Notice)", "PPC (Parking Charge Notice)"],
+              "rows": [
+                ["Issued by", "Councils, TfL", "Supermarkets, retail parks, private landowners"],
+                ["Legal basis", "Civil enforcement under the Traffic Management Act", "Contract law – not a fine, but a breach of terms"],
+                ["Appeal process", "Through council, then tribunal", "Through parking company, then POPLA or IAS"],
+                ["Enforcement", "Can lead to bailiffs and County Court Judgments (CCJs)", "Can lead to debt collectors and CCJs if court claim is issued"],
+                ["Example", "Bus lane fine, yellow box junction, ULEZ", "Overstaying 2-hour limit at retail park"]
+              ]
+            }
+          },
+          {
+            "type": "text",
+            "text": "Use [ParkClear's TicketTracker](/) to identify what kind of fine you've received. It's the easiest way to track, understand, and appeal your tickets."
+          },
+          {
+            "type": "heading",
+            "text": "Common Reasons You Might Get a PCN"
+          },
+          {
+            "type": "unlist",
+            "items": [
+              "Driving in a bus lane during restricted hours",
+              "Stopping in a yellow box junction",
+              "Parking in a resident bay without a permit",
+              "Not paying Congestion Charge, ULEZ, or Dart Charge",
+              "Parking on double yellows, school zones, or red routes"
+            ]
+          },
+          {
+            "type": "heading",
+            "text": "Penalty Charges – Fully Transparent"
+          },
+          {
+            "type": "table",
+            "data": {
+              "headers": ["Offence Type", "Where", "Standard Fine", "Discounted (within 14 days)", "Late Penalty"],
+              "rows": [
+                ["Bus Lane", "Nationwide", "£60–£70", "£30–£35", "£90–£105"],
+                ["Yellow Box", "London", "£130", "£65", "£195"],
+                ["Congestion Charge", "London", "£160", "£80", "£240"],
+                ["Dart Charge", "Dartford Crossing", "£70", "£35", "£105"],
+                ["Silvertown Tunnel", "Coming 2025", "Expected £160", "£80", "£240"],
+                ["ULEZ", "London", "£180", "£90", "£270"],
+                ["Red Route", "TfL Roads", "£160", "£80", "£240"]
+              ]
+            }
+          },
+          {
+            "type": "text",
+            "text": "Missed deadlines = escalating fines. ParkClear can help you avoid this with automatic reminders through TicketTracker."
+          },
+          {
+            "type": "heading",
+            "text": "What Happens If You Ignore a PCN?"
+          },
+          {
+            "type": "list",
+            "items": [
+              "Day 0: PCN issued",
+              "Day 1–14: Discount period – pay 50%",
+              "Day 15–28: Pay full fine or challenge it",
+              "After 28 days: Council sends Notice to Owner (NTO)",
+              "No payment: Charge Certificate issued – fine increases by 50%",
+              "Still ignored: Debt registered at county court",
+              "Bailiffs may be instructed",
+              "You may receive a County Court Judgment (CCJ) – this affects your credit score for 6 years"
+            ]
+          },
+          {
+            "type": "text",
+            "text": "ParkClear's Appeals Support can help you challenge unfair fines before they escalate. Don't delay — get help fast."
+          },
+          {
+            "type": "heading",
+            "text": "How to Appeal – Step-by-Step"
+          },
+          {
+            "type": "subheading",
+            "text": "Public (Council-issued) PCNs"
+          },
+          {
+            "type": "list",
+            "items": [
+              "Early challenge: Send evidence online within 14 days",
+              "If rejected, wait for a Notice to Owner (NTO), then submit a formal appeal",
+              "Still rejected? Escalate to:\n  [London Tribunals](https://www.londontribunals.gov.uk/)\n  [Traffic Penalty Tribunal](https://www.trafficpenaltytribunal.gov.uk/)"
+            ]
+          },
+          {
+            "type": "subheading",
+            "text": "Private Parking Charge Notices"
+          },
+          {
+            "type": "list",
+            "items": [
+              "Appeal to the parking company",
+              "If denied, escalate to:\n  [POPLA](https://www.popla.co.uk/) (BPA members)\n  [IAS](https://www.theias.org/) (IPC members)"
+            ]
+          },
+          {
+            "type": "text",
+            "text": "Use [ParkClear Appeals Support](/) to build and send your case with expert-reviewed templates."
+          },
+          {
+            "type": "heading",
+            "text": "Myths Debunked"
+          },
+          {
+            "type": "table",
+            "data": {
+              "headers": ["Myth", "Reality"],
+              "rows": [
+                ["\"Private tickets aren't real.\"", "They can still go to court and result in a CCJ."],
+                ["\"They have to show me photos.\"", "Councils usually do, but not always. Don't assume you're safe."],
+                ["\"If I ignore it long enough, it'll go away.\"", "Ignored fines escalate to bailiffs and court."],
+                ["\"Only police can fine you.\"", "Councils and private companies are legally allowed to issue enforceable notices."]
+              ]
+            }
+          },
+          {
+            "type": "heading",
+            "text": "🔗 Essential Resources"
+          },
+          {
+            "type": "list",
+            "items": [
+              "[Check if you have a fine](https://thedebtadviceservice.co.uk/check-vehicle-fines/)",
+              "[Appealing parking tickets – Citizens Advice](https://www.citizensadvice.org.uk/law-and-courts/parking-tickets/appealing-a-parking-ticket/)",
+              "TfL PCN Details",
+              "[Traffic Penalty Tribunal](https://www.trafficpenaltytribunal.gov.uk/)",
+              "[POPLA – Private Parking Appeals](https://www.popla.co.uk/)"
+            ]
+          },
+          {
+            "type": "heading",
+            "text": "ParkClear Makes It Simple"
+          },
+          {
+            "type": "unlist",
+            "items": [
+              "Use TicketTracker to scan and understand any fine",
+              "Get alerts for upcoming deadlines",
+              "Generate an appeal in minutes",
+              "Speak to real people if you're confused or worried"
+            ]
+          }
+        ]
+      }
+    
+    
   },
   {
     "id": 4,
