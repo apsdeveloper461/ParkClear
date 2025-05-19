@@ -1,5 +1,6 @@
 import { useParams } from "react-router-dom";
 import { Fragment, useEffect, useState } from "react";
+import { motion } from "framer-motion";
 import NavBar from "../components/NavBar.jsx";
 import Footer from "../components/Footer.jsx";
 import Main from "../components/Main.jsx";
@@ -42,25 +43,37 @@ const SingleContentPage = () => {
       switch (item.type) {
         case "heading":
           return (
-            <div
+            <motion.div
+              initial={{ opacity: 0, y: 20 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              viewport={{ once: true, amount: 0.4 }}
+              transition={{ duration: 0.5, delay: index * 0.07 }}
               key={index}
               className='singleContentPage__section-title u-margin-top-sm'
             >
               {item.text}
-            </div>
+            </motion.div>
           );
         case "subheading":
           return (
-            <div
+            <motion.div
+              initial={{ opacity: 0, y: 10 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              viewport={{ once: true, amount: 0.4 }}
+              transition={{ duration: 0.4, delay: index * 0.07 }}
               key={index}
               className='singleContentPage__subheading u-margin-top-xs'
             >
               {item.text}
-            </div>
+            </motion.div>
           );
         case "text":
           return (
-            <p
+            <motion.p
+              initial={{ opacity: 0, y: 10 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              viewport={{ once: true, amount: 0.4 }}
+              transition={{ duration: 0.4, delay: index * 0.07 }}
               key={index}
               dangerouslySetInnerHTML={{
                 __html: parseLinks(item.text.replace(/\n/g, "<br>")),
@@ -70,20 +83,31 @@ const SingleContentPage = () => {
           );
         case "img":
           return (
-            <div
+            <motion.div
+              initial={{ opacity: 0, scale: 0.95 }}
+              whileInView={{ opacity: 1, scale: 1 }}
+              viewport={{ once: true, amount: 0.4 }}
+              transition={{ duration: 0.5, delay: index * 0.07 }}
               key={index}
               className='singleContentPage__illustration'
             >
-              <img
+              <motion.img
+                initial={{ opacity: 0, scale: 0.9 }}
+                whileInView={{ opacity: 1, scale: 1 }}
+                viewport={{ once: true, amount: 0.4 }}
+                transition={{ duration: 0.5, delay: 0.1 + index * 0.07 }}
                 src={`singleContentPage/${item.src}`}
                 alt='Illustration'
               />
-            </div>
+            </motion.div>
           );
         case "table":
-          // Render a table with headers and rows, wrapped for horizontal scroll
           return (
-            <div
+            <motion.div
+              initial={{ opacity: 0, y: 20 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              viewport={{ once: true, amount: 0.4 }}
+              transition={{ duration: 0.5, delay: index * 0.07 }}
               className='singleContentPage__table-wrapper'
               key={index}
             >
@@ -107,13 +131,15 @@ const SingleContentPage = () => {
                     ))}
                 </tbody>
               </table>
-            </div>
+            </motion.div>
           );
-
         case "list":
-          // Render a numbered (ordered) list
           return (
-            <ol
+            <motion.ol
+              initial={{ opacity: 0, y: 10 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              viewport={{ once: true, amount: 0.4 }}
+              transition={{ duration: 0.4, delay: index * 0.07 }}
               className='singleContentPage__list singleContentPage__list--ordered'
               key={index}
             >
@@ -150,12 +176,15 @@ const SingleContentPage = () => {
                     </li>
                   );
                 })}
-            </ol>
+            </motion.ol>
           );
         case "unlist":
-          // Render an unordered list with custom icon
           return (
-            <ul
+            <motion.ul
+              initial={{ opacity: 0, y: 10 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              viewport={{ once: true, amount: 0.4 }}
+              transition={{ duration: 0.4, delay: index * 0.07 }}
               className='singleContentPage__list singleContentPage__list--icon'
               key={index}
             >
@@ -192,7 +221,7 @@ const SingleContentPage = () => {
                     </li>
                   );
                 })}
-            </ul>
+            </motion.ul>
           );
         default:
           return null;
@@ -203,69 +232,82 @@ const SingleContentPage = () => {
   return (
     <Fragment>
       <NavBar />
-      {loading && <h1>Loading...</h1>}
-      {!loading && !content && (
-        <h1>No content found. Please go back and then try again.</h1>
-      )}
-      {!loading && content && (
-        <div>
-          <Main {...content.main} />
-          <div className='singleContentPage pad'>
-            <div className='singleContentPage__content'>
-              {renderDynamicContent()}
-            </div>
-            <div className='singleContentPage__sidebar'>
-              <div className='singleContentPage__section-title'>
-                Related Links
+      {/* <motion.div
+        initial={{ opacity: 0 }}
+        whileInView={{ opacity: 1 }}
+        viewport={{ once: true, amount: 0.4 }}
+        transition={{ duration: 0.7 }}
+      > */}
+        {loading && <h1>Loading...</h1>}
+        {!loading && !content && (
+          <h1>No content found. Please go back and then try again.</h1>
+        )}
+        {!loading && content && (
+          <div>
+            <Main {...content.main} />
+            <div className='singleContentPage pad'>
+              <div className='singleContentPage__content'>
+                {renderDynamicContent()}
               </div>
-              <div className='singleContentPage__links'>
-                <a
-                  href='#'
-                  className='singleContentPage__paragraph'
-                >
-                  Driving Timelines & Reminders
-                </a>
-                <a
-                  href='#'
-                  className='singleContentPage__paragraph'
-                >
-                  Your Rights as a Driver
-                </a>
-                <a
-                  href='#'
-                  className='singleContentPage__paragraph'
-                >
-                  Echo and Green Driving
-                </a>
-                <a
-                  href='#'
-                  className='singleContentPage__paragraph'
-                >
-                  Driving Apps and Tools
-                </a>
-                <a
-                  href='#'
-                  className='singleContentPage__paragraph'
-                >
-                  Roads and Travels
-                </a>
-                <a
-                  href='#'
-                  className='singleContentPage__paragraph'
-                >
-                  Parking Made Simple
-                </a>
-                <a
-                  href='#'
-                  className='singleContentPage__paragraph'
-                >
-                  DIY and Emergency Help
-                </a>
-              </div>
+              <motion.div
+                initial={{ opacity: 0, x: 40 }}
+                whileInView={{ opacity: 1, x: 0 }}
+                viewport={{ once: true, amount: 0.4 }}
+                transition={{ duration: 0.6, delay: 0.2 }}
+                className='singleContentPage__sidebar'
+              >
+                <div className='singleContentPage__section-title'>
+                  Related Links
+                </div>
+                <div className='singleContentPage__links'>
+                  <a
+                    href='#'
+                    className='singleContentPage__paragraph'
+                  >
+                    Driving Timelines & Reminders
+                  </a>
+                  <a
+                    href='#'
+                    className='singleContentPage__paragraph'
+                  >
+                    Your Rights as a Driver
+                  </a>
+                  <a
+                    href='#'
+                    className='singleContentPage__paragraph'
+                  >
+                    Echo and Green Driving
+                  </a>
+                  <a
+                    href='#'
+                    className='singleContentPage__paragraph'
+                  >
+                    Driving Apps and Tools
+                  </a>
+                  <a
+                    href='#'
+                    className='singleContentPage__paragraph'
+                  >
+                    Roads and Travels
+                  </a>
+                  <a
+                    href='#'
+                    className='singleContentPage__paragraph'
+                  >
+                    Parking Made Simple
+                  </a>
+                  <a
+                    href='#'
+                    className='singleContentPage__paragraph'
+                  >
+                    DIY and Emergency Help
+                  </a>
+                </div>
+              </motion.div>
             </div>
           </div>
-        </div>
-      )}
+        )}
+      {/* </motion.div> */}
       <Footer />
     </Fragment>
   );

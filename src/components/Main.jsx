@@ -1,5 +1,6 @@
 import { CiSearch } from "react-icons/ci";
 import { Link } from "react-router-dom";
+import { motion } from "framer-motion";
 
 const Main = ({
   heading1,
@@ -8,16 +9,25 @@ const Main = ({
   subtitle,
   btn1text,
   btn2text,
-  isSearch=false,
+  isSearch = false,
   setSearchData,
   searchData,
   home = false,
 }) => {
- 
   return (
-    <main className={`main pad ${home && "main__home"}`}>
+    <motion.main
+      initial={{ opacity: 0, y: 40 }}
+      animate={{ opacity: 1, y: 0 }}
+      transition={{ duration: 0.7, type: "spring" }}
+      className={`main pad ${home && "main__home"}`}
+    >
       <div className='main__content'>
-        <h1 className={`heading ${home && "center_content"} `}>
+        <motion.h1
+          initial={{ opacity: 0, y: 35 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ delay: 0.5, duration: 0.6 }}
+          className={`heading ${home && "center_content"} `}
+        >
           <span className='heading heading--primary'>{heading1 + " "}</span>
           {heading2 && (
             <span className='heading heading--secondary'>{heading2 + " "}</span>
@@ -25,10 +35,15 @@ const Main = ({
           {heading3 && (
             <span className='heading heading--primary'>{heading3}</span>
           )}
-        </h1>
+        </motion.h1>
         {/* Search Bar Start */}
         {isSearch && (
-          <div className='main__searchbar'>
+          <motion.div
+            initial={{ opacity: 0, scale: 0.5 }}
+            animate={{ opacity: 1, scale: 1 }}
+            transition={{ delay: 0.5, duration: 0.5 }}
+            className='main__searchbar'
+          >
             <input
               type='text'
               value={searchData}
@@ -41,18 +56,22 @@ const Main = ({
               {/* Using react-icons for search icon */}
               <CiSearch style={{ fontSize: "20px" }} />
             </span>
-          </div>
+          </motion.div>
         )}
         {/* Search Bar End */}
         {subtitle && (
-          <p
+          <motion.p
+            initial={{ opacity: 0, y: 20 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ delay: 0.8, duration: 0.8 }}
             className={`${
               home ? "heading--subtitle--home" : "heading--subtitle"
             }`}
           >
-            Tips, Guidelines and Resources For <span className={`${home && 'text-yellow'}`}>Smarter</span> Parking and
-            Safer Driving.
-          </p>
+            Tips, Guidelines and Resources For{" "}
+            <span className={`${home && "text-yellow"}`}>Smarter</span> Parking
+            and Safer Driving.
+          </motion.p>
         )}
         {(btn1text || btn2text) && (
           <div className='main--btn moveInUp'>
@@ -75,7 +94,7 @@ const Main = ({
           </div>
         )}
       </div>
-    </main>
+    </motion.main>
   );
 };
 export default Main;

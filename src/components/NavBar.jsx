@@ -1,6 +1,7 @@
 import "./../stylesheet/navbar.css";
 import { Fragment, useEffect, useState } from "react";
 import { Link } from "react-router-dom";
+import { motion } from "framer-motion";
 
 const NavBar = () => {
   const [isSticky, setIsSticky] = useState(false);
@@ -32,9 +33,17 @@ const NavBar = () => {
     const logoSrc = window.innerWidth > 900 ? "/logo1.png" : "/logoMobile.png";
     return (
       <Fragment>
-        <nav className={`navbar pad ${isSticky ? "sticky-nav" : ""}`}>
+        <motion.nav
+          initial={{ y: -60, opacity: 0 }}
+          animate={{ y: 0, opacity: 1 }}
+          transition={{ duration: 0.6, type: "spring" }}
+          className={`navbar pad ${isSticky ? "sticky-nav" : ""}`}
+        >
           <div className='navbar__logo-container'>
-            <img
+            <motion.img
+              initial={{ scale: 0.8, opacity: 0 }}
+              animate={{ scale: 1, opacity: 1 }}
+              transition={{ delay: 0.2, duration: 0.5 }}
               src={logoSrc}
               className='navbar__logo'
               alt=''
@@ -54,7 +63,7 @@ const NavBar = () => {
               style={{ pointerEvents: "none" }}
             ></i>
           </button>
-        </nav>
+        </motion.nav>
 
         <div className='sm_navbar__menu'>
           <Link
@@ -107,7 +116,12 @@ const NavBar = () => {
   // this navbar is for bigger screens
   const navBarBig = () => {
     return (
-      <nav className={`navbar pad ${isSticky ? "sticky-nav" : ""}`}>
+      <motion.nav
+        initial={{ y: -60, opacity: 0 }}
+        animate={{ y: 0, opacity: 1 }}
+        transition={{ duration: 0.6, type: "spring" }}
+        className={`navbar pad ${isSticky ? "sticky-nav" : ""}`}
+      >
         <div className='navbar__logo-container'>
           <img
             src='/logo1.png'
@@ -153,7 +167,7 @@ const NavBar = () => {
           <button className='btn btn-primary'>Log In</button>
           <button className='btn btn-secondary'>Register</button>
         </div>
-      </nav>
+      </motion.nav>
     );
   };
 
