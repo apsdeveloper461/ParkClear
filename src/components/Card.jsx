@@ -92,8 +92,9 @@ const Cards = ({ search = "", setSearch }) => {
           </span>
         </div>
       )}
-      {filteredCards.length > 0 && (
-        // <div className='cards__container'>
+      {
+        filteredCards.length > 0 &&
+          // <div className='cards__container'>
           filteredCards.map((card, idx) => (
             <motion.div
               key={card.id}
@@ -102,8 +103,12 @@ const Cards = ({ search = "", setSearch }) => {
               viewport={{ once: true, amount: 0.2 }}
               transition={{ delay: idx * 0.08, duration: 0.5 }}
               className='card'
+              whileHover={{ y: -7, transition: { delay: 0, duration: 0.05 } }}
             >
-              <Link to={`/${card.id}`}>
+              <Link
+                to={`/${card.id}`}
+                className='card__link'
+              >
                 <div className='card__image--holder'>
                   <img
                     src={`/home/${card.img}`}
@@ -119,7 +124,7 @@ const Cards = ({ search = "", setSearch }) => {
             </motion.div>
           ))
         // </div>
-      )}
+      }
     </section>
   );
 };

@@ -29,7 +29,7 @@
 }
 
 .card:hover {
-    transform: translateY(-5px);
+    transform: translateY(50px);
 }
 
 .card__image--holder {
