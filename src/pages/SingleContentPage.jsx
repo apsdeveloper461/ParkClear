@@ -1,4 +1,4 @@
-import { useParams } from "react-router-dom";
+import { useNavigate, useParams } from "react-router-dom";
 import { Fragment, useEffect, useState } from "react";
 import { motion } from "framer-motion";
 import NavBar from "../components/NavBar.jsx";
@@ -18,6 +18,7 @@ const SingleContentPage = () => {
   const { id } = useParams();
   const [loading, setLoading] = useState(true);
   const [content, setContent] = useState("");
+  const navigate = useNavigate();
 
   useEffect(() => {
     fetch("/home/homePageCards.json")
@@ -238,75 +239,92 @@ const SingleContentPage = () => {
         viewport={{ once: true, amount: 0.4 }}
         transition={{ duration: 0.7 }}
       > */}
-        {loading && <h1>Loading...</h1>}
-        {!loading && !content && (
-          <h1>No content found. Please go back and then try again.</h1>
-        )}
-        {!loading && content && (
-          <div>
-            <Main {...content.main} />
-            <div className='singleContentPage pad'>
-              <div className='singleContentPage__content'>
-                {renderDynamicContent()}
-              </div>
-              <motion.div
-                initial={{ opacity: 0, x: 40 }}
-                whileInView={{ opacity: 1, x: 0 }}
-                viewport={{ once: true, amount: 0.4 }}
-                transition={{ duration: 0.6, delay: 0.2 }}
-                className='singleContentPage__sidebar'
+      {loading && <h1>Loading...</h1>}
+      {!loading && !content && (
+        <h1>No content found. Please go back and then try again.</h1>
+      )}
+      {!loading && content && (
+        <div>
+          <Main {...content.main} />
+          <div className='singleContentPage pad'>
+            <div className='singleContentPage__content'>
+              <button
+                className='singleContentPage__back-btn'
+                onClick={() => navigate("/")}
+                style={{
+                  margin: "1rem 0 1.5rem 0",
+                  padding: "0.5rem 1.2rem",
+                  borderRadius: "6px",
+                  border: "none",
+                  background: "#f5f5f5",
+                  color: "#333",
+                  fontWeight: 500,
+                  cursor: "pointer",
+                  boxShadow: "0 1px 4px rgba(0,0,0,0.07)",
+                }}
               >
-                <div className='singleContentPage__section-title'>
-                  Related Links
-                </div>
-                <div className='singleContentPage__links'>
-                  <a
-                    href='#'
-                    className='singleContentPage__paragraph'
-                  >
-                    Driving Timelines & Reminders
-                  </a>
-                  <a
-                    href='#'
-                    className='singleContentPage__paragraph'
-                  >
-                    Your Rights as a Driver
-                  </a>
-                  <a
-                    href='#'
-                    className='singleContentPage__paragraph'
-                  >
-                    Echo and Green Driving
-                  </a>
-                  <a
-                    href='#'
-                    className='singleContentPage__paragraph'
-                  >
-                    Driving Apps and Tools
-                  </a>
-                  <a
-                    href='#'
-                    className='singleContentPage__paragraph'
-                  >
-                    Roads and Travels
-                  </a>
-                  <a
-                    href='#'
-                    className='singleContentPage__paragraph'
-                  >
-                    Parking Made Simple
-                  </a>
-                  <a
-                    href='#'
-                    className='singleContentPage__paragraph'
-                  >
-                    DIY and Emergency Help
-                  </a>
-                </div>
-              </motion.div>
+                ← Back to Home
+              </button>
+              {renderDynamicContent()}
             </div>
+            <motion.div
+              initial={{ opacity: 0, x: 40 }}
+              whileInView={{ opacity: 1, x: 0 }}
+              viewport={{ once: true, amount: 0.4 }}
+              transition={{ duration: 0.6, delay: 0.2 }}
+              className='singleContentPage__sidebar'
+            >
+              <div className='singleContentPage__section-title'>
+                Related Links
+              </div>
+              <div className='singleContentPage__links'>
+                <a
+                  href='#'
+                  className='singleContentPage__paragraph'
+                >
+                  Driving Timelines & Reminders
+                </a>
+                <a
+                  href='#'
+                  className='singleContentPage__paragraph'
+                >
+                  Your Rights as a Driver
+                </a>
+                <a
+                  href='#'
+                  className='singleContentPage__paragraph'
+                >
+                  Echo and Green Driving
+                </a>
+                <a
+                  href='#'
+                  className='singleContentPage__paragraph'
+                >
+                  Driving Apps and Tools
+                </a>
+                <a
+                  href='#'
+                  className='singleContentPage__paragraph'
+                >
+                  Roads and Travels
+                </a>
+                <a
+                  href='#'
+                  className='singleContentPage__paragraph'
+                >
+                  Parking Made Simple
+                </a>
+                <a
+                  href='#'
+                  className='singleContentPage__paragraph'
+                >
+                  DIY and Emergency Help
+                </a>
+              </div>
+            </motion.div>
           </div>
-        )}
+        </div>
+      )}
       {/* </motion.div> */}
       <Footer />
     </Fragment>
